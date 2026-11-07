@@ -9,7 +9,7 @@ NPK.
 Nessuna dipendenza esterna, tutto inline, funziona offline salvo i link uscenti a
 `noproblemkit.com`. Stesso pattern di `../mak-tpms-relearn/`.
 
-**Online:** non ancora pubblicato su MAKWHEELS.
+**Online:** https://makwheels.github.io/mak-calze-neve/
 
 ## Struttura
 
