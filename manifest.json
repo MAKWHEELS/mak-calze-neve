@@ -1,0 +1,9 @@
+{
+  "name": "Calze da neve NPK - scelta taglia",
+  "short_name": "Calze NPK",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f3ef",
+  "theme_color": "#16181d",
+  "icons": [{"src": "assets/icona.png", "sizes": "180x180", "type": "image/png"}]
+}
