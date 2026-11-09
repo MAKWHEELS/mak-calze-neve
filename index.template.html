@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-title" content="Calze NPK">
 <link rel="apple-touch-icon" href="assets/icona.png">
 <link rel="manifest" href="manifest.json">
-<title>Calze da neve NPK - scelta taglia</title>
+<title>Tool di ricerca taglie calze da neve NPK</title>
 <style>
   :root{
     --bg:#f4f3ef; --panel:#ffffff; --panel-2:#f0eee8;
@@ -299,7 +299,7 @@
   function renderModel(slug){
     var m = bySlug[slug];
     if(!m){ location.hash = "#/"; return; }
-    document.title = m.name + " - Calze da neve NPK";
+    document.title = m.name + " - Tool di ricerca taglie calze da neve NPK";
 
     var html =
         '<h1 class="m-title">' + esc(m.name) + '</h1>'
@@ -411,7 +411,7 @@
       renderModel(slug);
     } else {
       document.body.dataset.view = "home";
-      document.title = "Calze da neve NPK - scelta taglia";
+      document.title = "Tool di ricerca taglie calze da neve NPK";
     }
   }
 
